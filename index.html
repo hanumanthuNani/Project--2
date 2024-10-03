@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FLAMES Game</title>
+    <!-- Animate.css for animations -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; margin-top: 50px; background-color: #f0f8ff; }
+        .container { width: 400px; margin: 0 auto; background-color: white; padding: 20px; border-radius: 10px; box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); }
+        input { margin: 10px 0; padding: 10px; width: 100%; border: 2px solid #ddd; border-radius: 5px; }
+        button { padding: 10px; background-color: #4CAF50; color: white; border: none; border-radius: 5px; cursor: pointer; }
+        button:hover { background-color: #45a049; }
+        .result { margin-top: 20px; font-size: 1.2em; }
+        .heading { font-size: 2em; margin-bottom: 20px; }
+        .popup { display: none; }
+        .coffee-button { margin-top: 20px; }
+        .coffee-button a { text-decoration: none; color: white; background-color: #ff813f; padding: 10px 20px; border-radius: 5px; display: inline-block; }
+    </style>
+</head>
+<body>
+
+    <div class="container animate__animated animate__fadeIn">
+        <h1 class="heading">Designed By Nani Hanumanthu</h1>
+        <p>Follow GitHub: <a href="https://github.com/hanumanthuNani" target="_blank">hanumanthuNani</a></p>
+        <form id="flamesForm">
+            <input type="text" id="name1" placeholder="Enter First Name" required>
+            <input type="text" id="name2" placeholder="Enter Second Name" required>
+            <button type="submit">Calculate FLAMES</button>
+        </form>
+        <div id="result" class="result"></div>
+        <div class="coffee-button">
+            <a href="https://buymeacoffee.com/nanihanuma2" target="_blank">Buy me coffee</a>
+        </div>
+    </div>
+
+    <!-- Popup for the result -->
+    <div id="popup" class="popup animate__animated animate__zoomIn">
+        <div class="container">
+            <h2>Your FLAMES Result</h2>
+            <p id="popupResult"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
