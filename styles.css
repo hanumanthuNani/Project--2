@@ -1,0 +1,110 @@
+body {
+    font-family: 'Poppins', sans-serif; /* Added Google Font for modern look */
+    text-align: center;
+    margin-top: 50px;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.container {
+    width: 400px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    transition: transform 0.3s ease;
+}
+
+.container:hover {
+    transform: translateY(-5px); /* Hover effect for container */
+}
+
+input {
+    margin: 15px 0;
+    padding: 15px;
+    width: 100%;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    font-size: 1em;
+    box-shadow: inset 0 1px 5px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+input:focus {
+    border-color: #4CAF50; /* Focus color for input */
+    outline: none;
+    box-shadow: 0 0 10px rgba(76, 175, 80, 0.4);
+}
+
+button {
+    padding: 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1.1em;
+    transition: background-color 0.3s ease, transform 0.2s;
+}
+
+button:hover {
+    background-color: #45a049;
+    transform: scale(1.05); /* Button hover effect */
+}
+
+.heading {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #4CAF50; /* Make heading pop */
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+a {
+    color: #007BFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+.result {
+    margin-top: 20px;
+    font-size: 1.4em;
+    color: #ff5722; /* Standout result text */
+}
+
+.popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+    z-index: 999;
+}
+
+.coffee-button {
+    margin-top: 30px;
+}
+
+.coffee-button a {
+    text-decoration: none;
+    color: white;
+    background-color: #ff813f;
+    padding: 15px 30px;
+    border-radius: 50px;
+    font-size: 1.2em;
+    transition: background-color 0.3s ease;
+}
+
+.coffee-button a:hover {
+    background-color: #ff571f; /* Darker on hover */
+}
