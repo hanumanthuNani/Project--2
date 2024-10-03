@@ -1,7 +1,4 @@
 # Project--2
-Here’s a description you can use for your LinkedIn post to announce the FLAMES game website:
-
----
 
 🚀 **Just Launched: My New FLAMES Game Website! 🔥**  
 I'm excited to share a fun side project I’ve been working on—an interactive **FLAMES game website**! 🎉
